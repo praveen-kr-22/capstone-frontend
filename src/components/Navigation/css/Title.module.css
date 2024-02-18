@@ -1,0 +1,14 @@
+.button {
+    /* border: 1rem solid black; */
+    text-decoration: none;
+    color: rgb(204, 25, 25);
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+}
+.img{
+    border: 1rem solid black;
+}
+

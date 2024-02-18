@@ -1,0 +1,13 @@
+.main{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 45%;
+}
+
+.btn{
+   background: none;
+   border: none;
+}

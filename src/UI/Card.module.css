@@ -1,0 +1,22 @@
+.card {
+    box-shadow: 0 2px 8px rgba(215, 8, 8, 0.25);
+    border-radius: 14px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 20px;
+    display: inline-block;
+    z-index: -1;
+}
+.card img{
+    max-width: 100%;
+    width: 400px;
+    height:250px;
+    border-radius: 14px 14px 0 0;
+    transform-origin:center;
+    transition: 0.4s ;
+}
+
+.card :hover img{
+    cursor: pointer;
+}

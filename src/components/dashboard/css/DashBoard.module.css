@@ -1,0 +1,19 @@
+.main {
+    margin-left: 230px;
+    margin-top: 52px;
+    width: calc(100vw - 232px);
+    height: 100%;
+}
+
+.upper{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+
+.lower{
+    height: 300px;
+    width: 600px;
+    /* border: 1rem solid red; */
+    margin-left: 23%;
+}

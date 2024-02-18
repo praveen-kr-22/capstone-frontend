@@ -1,0 +1,36 @@
+.main {
+    border: 1px solid darkblue;
+    width: 350px;
+    height: 350px;
+    font-family: Times;
+    border-radius: 10px;
+}
+
+.upper{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.title{
+    font-size: large;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.list{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    margin-right: 40px;
+    margin-top: 65%;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    height: 45px;
+    width: 45px;
+    align-items: center;
+    justify-content: center;
+}

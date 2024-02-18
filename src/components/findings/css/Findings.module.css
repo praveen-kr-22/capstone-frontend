@@ -1,0 +1,48 @@
+.container {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.pagination {
+    margin-bottom: 50px;
+}
+
+.main{
+    margin-left: 230px;
+    margin-top: 52px;
+    width: calc(100vw - 232px);
+    height: 100%;
+    flex: 1;
+}
+
+.table {
+    width: 100%;
+    /* border: 2px solid red; */
+    /* margin-left: 5%; */
+
+}
+
+.table tr {
+    text-align: center;
+}
+
+.heading {
+    /* text-align: center; */
+    margin-left: 60px;
+    color: rgb(178, 40, 40);
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+}
+.section button{
+    border: 1px solid red;
+    margin-right: 30px;
+    margin-top: 20px;
+    color: red;
+    height: 30px;
+    border-radius: 50px 50px 50px 50px;
+}

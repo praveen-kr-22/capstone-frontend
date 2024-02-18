@@ -1,0 +1,18 @@
+.main{
+   border: 1px solid darkblue;
+   font-family: Times;
+   width: 550px;
+   border-radius: 10px;
+   margin-left: 50px;
+}
+.title {
+   font-size: large;
+   font-weight: 500;
+   margin-left: 10px;
+}
+
+.upper {
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-between;
+}

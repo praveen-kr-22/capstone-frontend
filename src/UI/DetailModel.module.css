@@ -1,0 +1,21 @@
+.detail{
+    position: fixed;
+    bottom: 300px;
+    height: auto;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    border: 1px solid red;
+    /* border-radius: 14px; */
+    box-shadow: 0 2px 8px rgba(126, 8, 8, 0.1);
+    z-index: 30;
+    animation: slide-down 300ms ease-out forwards;
+    left:25%;
+    top: 25%;
+    overflow: scroll;
+    word-wrap: break-word;
+}
+
+.text{
+    color: red;
+}

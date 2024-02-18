@@ -1,0 +1,14 @@
+.main{
+    display: flex;
+    justify-content: right;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    width: 50px;
+}
+.name h1{
+    color: red;
+    margin-top: 14px;
+}

@@ -1,0 +1,20 @@
+.list{
+    display: flex;
+    gap: 1.5rem;
+    color: black;
+    text-decoration: none;
+    padding-right: 7rem;
+}
+.list a{
+    text-decoration: none;
+    color: black;
+}
+
+.list a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+.list a.active{
+    color: brown;
+}
+

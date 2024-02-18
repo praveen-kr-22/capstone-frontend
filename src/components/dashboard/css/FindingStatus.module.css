@@ -1,0 +1,55 @@
+/* styles.module.css */
+
+
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    /* border: 1px solid #ddd; */
+    /* margin-left: 35px; */
+    margin-top: 10px;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 11px;
+    /* Adjust as needed */
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    vertical-align: middle;
+    /* margin: 20px; */
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.styled-table th {
+    background-color: #f2f2f2;
+}
+
+/* Add space between data sets */
+.styled-table td+td {
+    padding-left: 15px;
+    /* Adjust as needed */
+}
+
+.critical {
+    color: rgb(231, 9, 9);
+    font-weight: 700;
+}
+
+.high {
+    color: rgba(255, 122, 6, 0.937);
+    font-weight: 700;
+}
+
+.medium {
+    color: rgba(255, 154, 2, 0.804);
+    font-weight: 700;
+}
+
+.low {
+    color: rgba(255, 183, 0, 0.717);
+    font-weight: 700;
+}
