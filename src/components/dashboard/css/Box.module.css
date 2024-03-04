@@ -2,7 +2,7 @@
     border: 1px solid darkblue;
     width: 350px;
     height: 350px;
-    font-family: Times;
+    fontFamily: Times;
     border-radius: 10px;
 }
 
@@ -14,7 +14,7 @@
 
 .title{
     font-size: large;
-    font-weight: 500;
+    fontWeight: 500;
     margin-left: 10px;
 }
 

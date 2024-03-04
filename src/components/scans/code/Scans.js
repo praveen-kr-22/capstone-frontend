@@ -1,6 +1,5 @@
-import classes from "../css/Scans.module.css";
-import Pagination from "../../../UI/Pagination";
+import RightSide from "../../RightSide";
 
 export default function Scans() {
-  return <main className={classes.main}></main>;
+  return <RightSide></RightSide>;
 }

@@ -3,10 +3,11 @@ import FindingStatus from "./FindingStatus";
 import FindingByApp from "./FindingsByApp";
 import FindingsOverTime from "./FindingsOverTime";
 import NewFindings from "./NewFindings";
+import RightSide from "../../RightSide";
 
 export default function DashBoard({ info }) {
   return (
-    <main className={classes.main}>
+    <RightSide>
       <div className={classes.upper}>
         <FindingStatus statusInfo={info.status} />
         <NewFindings age={info.findingsAge} />
@@ -15,6 +16,6 @@ export default function DashBoard({ info }) {
       <div className={classes.lower}>
         <FindingsOverTime findingsOverTime={info.findingsOverTime} />
       </div>
-    </main>
+    </RightSide>
   );
 }

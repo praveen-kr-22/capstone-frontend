@@ -1,14 +1,15 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useRouteError } from "react-router-dom";
 import DashBoard from "../components/DashBoard";
-import MainNavigation from "../components/Navigation/Code/MainNavigation";
 import PageContent from "../UI/PageContent";
 
 function ErrorPage() {
+  const error = useRouteError();
+  const message = error.message;
+  console.log(error);
   return (
     <main>
-      <MainNavigation />
       <DashBoard />
-      <PageContent heading="Error" />
+      <PageContent heading="Error" message={message} />
       <Outlet />
     </main>
   );

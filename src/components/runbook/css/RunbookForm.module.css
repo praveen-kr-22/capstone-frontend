@@ -1,0 +1,76 @@
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    /* margin: 20px; */
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+label {
+    margin-bottom: 5px;
+}
+
+select {
+    margin-bottom: 10px;
+    width: 300px;
+}
+
+.filter {
+    /* border: 1px solid black; */
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.filter option {
+    flex: 1;
+    padding: 5px;
+}
+
+.filterType{
+    border: 1px solid red;
+    /* margin: 20px; */
+}
+
+.filterValue{
+    display: flex;
+    /* flex-direction: column; */
+    padding: 30px;
+}
+
+.filter select{
+    width: 300px;
+}
+
+
+.btn button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn button:hover {
+    background-color: #0056b3;
+}
+
+.btn button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.message{
+    color: rgb(22, 198, 22);
+}
+
+.error {
+    color: red;
+}

@@ -36,20 +36,20 @@
 
 .critical {
     color: rgb(231, 9, 9);
-    font-weight: 700;
+    fontWeight: 700;
 }
 
 .high {
     color: rgba(255, 122, 6, 0.937);
-    font-weight: 700;
+    fontWeight: 700;
 }
 
 .medium {
     color: rgba(255, 154, 2, 0.804);
-    font-weight: 700;
+    fontWeight: 700;
 }
 
 .low {
     color: rgba(255, 183, 0, 0.717);
-    font-weight: 700;
+    fontWeight: 700;
 }

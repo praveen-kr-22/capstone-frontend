@@ -1,5 +1,6 @@
-import { json, useLoaderData, useNavigation } from "react-router-dom";
+import { json, useLoaderData, useNavigation, redirect } from "react-router-dom";
 
+import { getAuthToken } from "../util/Auth";
 import DashBoard from "../components/dashboard/code/DashBoard";
 import PageContent from "../UI/PageContent";
 
@@ -18,10 +19,29 @@ export default function DashBoardPage() {
 }
 
 export const loader = async () => {
-  const response = await fetch("http://localhost:8080/dashboard/allinfo");
+  const token = getAuthToken();
+
+  if (!token) {
+    return redirect("http://localhost:3001/auth");
+  }
+  const response = await fetch("http://127.0.0.1:8082/dashboard/allinfo", {
+    headers: {
+      Authorization: `Bearer ${token}`,
+    },
+  });
+
+  if (response.status === 401 || response.status === 404) {
+    throw json(
+      {
+        message:
+          "Access Denied - You do not have permission to access this resource.",
+      },
+      { status: response.status }
+    );
+  }
 
   if (!response.ok) {
-    throw json({ message: "Could not fetch Tours" }, { status: 500 });
+    throw json({ message: "Could not fetch Info" }, { status: 500 });
   }
 
   return response;

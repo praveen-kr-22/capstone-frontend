@@ -1,13 +1,13 @@
 .main{
    border: 1px solid darkblue;
-   font-family: Times;
+   fontFamily: Times;
    width: 550px;
    border-radius: 10px;
    margin-left: 50px;
 }
 .title {
    font-size: large;
-   font-weight: 500;
+   fontWeight: 500;
    margin-left: 10px;
 }
 

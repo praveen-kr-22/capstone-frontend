@@ -1,16 +1,10 @@
-.main {
-    width: 100%;
-    height: 100vh;
-    /* border: 2px solid red; */
-}
-
 .heading {
     display: flex;
     justify-content: center;
     margin-top: 100px;
     color: rgb(192, 0, 105);
     font-size: xx-large;
-    font-weight: bolder;
+    fontWeight: bolder;
 }
 
 .message {

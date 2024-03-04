@@ -1,0 +1,97 @@
+.main {
+    /* border: 1rem solid red; */
+    height: 100vh;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logoContainer {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 200px;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+.error {
+    color: red;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    fontWeight: bold;
+    font-style: italic;
+    color: #332e2e;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.body{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    color: #000980;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.actions a {
+    text-decoration: none;
+    color: blue;
+}
+
+.action button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.action button:hover {
+    background-color: #0056b3;
+}
+
+.action button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.input{
+    margin-top: 30px;
+}
+

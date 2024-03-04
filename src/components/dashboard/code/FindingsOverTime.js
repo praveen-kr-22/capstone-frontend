@@ -74,6 +74,7 @@ export default function FindingsOverTime({ findingsOverTime }) {
     "Dec 2023",
     "Jan 2024",
     "Feb 2024",
+    "Mar 2024"
   ];
 
   const data = {

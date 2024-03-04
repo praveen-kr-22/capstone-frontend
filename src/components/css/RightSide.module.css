@@ -1,0 +1,23 @@
+.rightSide {
+    float:right;
+    height: 100vh;
+    overflow-y:scroll;
+}
+@media screen and (max-width: 2560px) {
+    .rightSide {
+        width: 84.9%;
+        /* background-color: aqua; */
+        /* margin-right:; */
+    }
+
+}
+
+@media screen and (min-width: 1600px) {
+    .rightSide {
+        width: 85.6%;
+        margin-right: 25px;
+    }
+
+}
+
+

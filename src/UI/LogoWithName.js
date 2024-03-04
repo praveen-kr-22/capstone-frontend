@@ -2,7 +2,7 @@ import classes from "./LogoWithName.module.css";
 
 function LogoWithName() {
   return (
-    <>
+    <div className={classes.main}>
       <svg
         version="1.1"
         id="Layer_1"
@@ -81,7 +81,7 @@ function LogoWithName() {
           />
         </g>
       </svg>
-    </>
+    </div>
   );
 }
 

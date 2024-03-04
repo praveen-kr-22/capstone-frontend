@@ -2,7 +2,29 @@
     color:rgb(97, 94, 94)
 }
 
-.btn{
-    background: none;
+/* CSS Module */
+.btn {
+    /* Add your styles for the regular button */
+    background-color: #007bff;
+    /* Example color */
+    color: #fff;
+    /* Example color */
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btnClose {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn :hover {
+    background: red;
     border: none;
 }

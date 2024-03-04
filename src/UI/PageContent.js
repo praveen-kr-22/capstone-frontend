@@ -1,17 +1,15 @@
-import { useSelector } from "react-redux";
+import RightSide from "../components/RightSide";
 import classes from "./PageContent.module.css";
 function PageContent(props) {
-
-
   return (
-    <main className={classes.main}>
+    <RightSide>
       <section className={classes.heading}>
         <h1>{props.heading}</h1>
       </section>
       <div className={classes.message}>
-        <h1>{props.message}</h1>
+        <h3>{props.message}</h3>
       </div>
-    </main>
+    </RightSide>
   );
 }
 

@@ -1,4 +1,8 @@
 .main{
-    display: flex;
-    margin-left: 17.5%;
+    /* display: flex;
+    margin-left: 17.5%; */
+    float:left;
+    width: 50%;
+    background-color: black;
+
 }
